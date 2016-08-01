@@ -7,7 +7,6 @@ package com.bitwise.banking
 
 trait AccountDetails {
   val currentBalance: Int
-
   def withdraw(amount: Int): BankAccount
   def deposit(amount:Int):BankAccount
   def getCurrentBalance:Int
@@ -19,16 +18,15 @@ trait AccountDetails {
 
  class BankAccount(val currentBalance:Int) extends AccountDetails{
 
-  override  def withdraw(amount:Int):BankAccount= {
-    if (amount <= 0 && amount >= currentBalance) {
+   override def withdraw(amount:Int):BankAccount=amount match {
+     case amount => if (amount <=0 && amount >=currentBalance) throw new Error("insuuficient fund")
+     else BankAccount(currentBalance - amount)
+   }
 
-     throw new Error("Invalid amount entered")
-    }else {
-
-      BankAccount(currentBalance - amount)
-    }
-  }
-
+   override def deposit(amount:Int):BankAccount=amount match {
+     case amount => if (amount <=0 && amount >=currentBalance) throw new Error("insuuficient fund")
+     else BankAccount(currentBalance +amount)
+   }
 
 
    override def toString = s"BankAccount($currentBalance)"
@@ -51,10 +49,7 @@ trait AccountDetails {
 
 
 
-   override def deposit(amount:Int):BankAccount=amount match {
-     case amount => if (amount <=0 && amount >=currentBalance) throw new Error("insuuficient fund")
-     else BankAccount(currentBalance +amount)
-   }
+
  }
 
 object BankAccount{

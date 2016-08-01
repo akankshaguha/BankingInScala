@@ -1,12 +1,18 @@
 package com.bitwise.banking
 
-import com.bitwise.parking.BankAccount
 import org.junit.{Assert, Test}
 
 /**
   * Created by akankshag on 8/1/2016.
   */
 class BankAccountTest {
+  @Test
+  def amountEnteredShouldNotBeNegative(): Unit ={
+    //given
+    val t = new BankAccount(-1)
+    //when
+    //then
+  }
   @Test
   def itShouldAbleToWithdrawMoney(): Unit ={
     //given

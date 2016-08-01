@@ -4,7 +4,6 @@
     <list default="true" id="b42d3d83-4042-4aaa-a5f9-2ee0253046e1" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/gradle.settings.xml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/updates.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/bitwise/parking/BankAccount.scala" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/com/bitwise/banking/BankAccountTest.scala" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tweetset/src/main/scala/com/bitwise/tweetset/TweetData.scala" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tweetset/src/main/scala/com/bitwise/tweetset/TweetReader.scala" />
@@ -65,23 +64,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BankAccountTest.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BankAccountTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/bitwise/banking/BankAccountTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding>
-                <element signature="e#29#67#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankAccount.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/bitwise/parking/BankAccount.scala">
+      <file leaf-file-name="BankAccount.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/bitwise/banking/BankAccount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+            <state relative-caret-position="336">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDataBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/bitwise/banking/UserDataBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -93,6 +100,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Worksheet" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -463,8 +471,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/bitwise/parking/database.scala" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/scala/com/bitwise/parking/prac.sc" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/bitwise/banking/BankAccountTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/bitwise/parking/BankAccount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/bitwise/banking/BankAccount.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/bitwise/banking/BankAccountTest.scala" />
       </list>
     </option>
   </component>
@@ -567,7 +576,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="parking" />
+              <option name="myItemId" value="banking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="banking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -584,7 +619,7 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.BankAccountTest.itShouldAbleToDepositMoney">
+  <component name="RunManager" selected="JUnit.BankAccountTest.amountEnteredShouldNotBeNegative">
     <configuration default="false" name="playframework [clean build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -662,6 +697,32 @@
       <option name="PACKAGE_NAME" value="com.bitwise.banking" />
       <option name="MAIN_CLASS_NAME" value="com.bitwise.banking.BankAccountTest" />
       <option name="METHOD_NAME" value="itShouldAbleToDepositMoney" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BankAccountTest.amountEnteredShouldNotBeNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bitwise.banking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="playframework_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bitwise.banking" />
+      <option name="MAIN_CLASS_NAME" value="com.bitwise.banking.BankAccountTest" />
+      <option name="METHOD_NAME" value="amountEnteredShouldNotBeNegative" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -954,18 +1015,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Gradle.playframework [clean build]" />
       <item index="1" class="java.lang.String" itemvalue="Gradle.playframework [gradle idea]" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.BankAccountTest.itShouldAbleToWithdrawMoney" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.BankAccountTest.itShouldAbleToDepositMoney" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BankAccountTest.amountEnteredShouldNotBeNegative" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BankAccountTest.itShouldAbleToDepositMoney" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BankAccountTest.itShouldAbleToWithdrawMoney" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.playframework [gradle idea]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.playframework [clean build]" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BankAccountTest.amountEnteredShouldNotBeNegative" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BankAccountTest.itShouldAbleToDepositMoney" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BankAccountTest.itShouldAbleToWithdrawMoney" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.playframework [gradle idea]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.playframework [clean build]" />
       </list>
     </recent_temporary>
   </component>
@@ -992,14 +1055,14 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="BankAccountTest_amountEnteredShouldNotBeNegative - 2016.08.01 at 13h 48m 58s.xml">
+      <configuration name="BankAccountTest.amountEnteredShouldNotBeNegative" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BankAccountTest_itShouldAbleToDepositMoney - 2016.08.01 at 13h 19m 24s.xml">
       <configuration name="BankAccountTest.itShouldAbleToDepositMoney" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BankAccountTest_itShouldAbleToDepositMoney - 2016.08.01 at 13h 25m 11s.xml">
       <configuration name="BankAccountTest.itShouldAbleToDepositMoney" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankAccountTest_itShouldAbleToWithdrawMoney - 2016.08.01 at 13h 01m 20s.xml">
-      <configuration name="BankAccountTest.itShouldAbleToWithdrawMoney" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BankAccountTest_itShouldAbleToWithdrawMoney - 2016.08.01 at 13h 02m 43s.xml">
       <configuration name="BankAccountTest.itShouldAbleToWithdrawMoney" configurationId="JUnit" />
@@ -1137,21 +1200,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bitwise/parking/BankAccount.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bitwise/banking/UserDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/bitwise/banking/BankAccountTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="e#29#67#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/bitwise/banking/BankAccount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
